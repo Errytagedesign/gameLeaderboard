@@ -15,15 +15,22 @@
           <h2>Recent Scores</h2>
           <button class="btn btn-outline-secondary">Refresh</button>
         </div>
-        <ul class="leaderBoard"></ul>
+        <ul class="leaderBoard border mt-3 p-2 rounded">
+          <li>Tade: 500</li>
+          <li>Deji: 500</li>
+          <li>Maliq: 500</li>
+          <li>Seun: 500</li>
+          <li>Dare: 500</li>
+          <li>Tunde: 500</li>
+        </ul>
       </section>
       <section class="col-4">
         <h2>Add your score</h2>
         <form class="d-flex flex-column justify-content-between">
-          <input class="name" type="text" placeholder="Your name" />
-          <input class="score" type="text" placeholder="Your score" />
-          <div>
-            <button id="addScores" class="btn btn-outline-secondary">
+          <input class="name mt-3" type="text" placeholder="Your name" />
+          <input class="score mt-3" type="text" placeholder="Your score" />
+          <div class="text-end">
+            <button id="addScores" class="btn btn-outline-secondary mt-3">
               Submit
             </button>
           </div>
