@@ -13,7 +13,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run Linters](#run-Linters)
+  - [Run Linters](#run-linters)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -74,7 +74,7 @@ Run this Command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Errytagedesign/Leaderboard
+  git clone https://github.com/Errytagedesign/gameLeaderboard
 ```
 
 ### Install
@@ -83,7 +83,7 @@ First you need to install the node package files
 Run this command:
 
 ```sh
-  cd Leaderboard
+  cd gameLeaderboard
   npm install
 ```
 
