@@ -6,6 +6,7 @@ import { createGame } from '../modules/createGame';
 import { loadGamers } from '../modules/loadGamers';
 
 const addScoreDetails = document.querySelector('#addScores');
+const scoreBoard = document.querySelector('.leaderBoard');
 const reloadScores = document.querySelector('#loadGamer');
 
 /* eslint-disable operator-linebreak */
@@ -27,4 +28,9 @@ addScoreDetails.addEventListener('click', (e) => {
 
 reloadScores.addEventListener('click', () => {
   loadGamers(baseUrl, gameID);
+});
+
+window.addEventListener('load', () => {
+  scoreBoard.innerHTML =
+    '<h5 class="text-center"> Refresh to see the leaderboard </h5>';
 });
