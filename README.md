@@ -22,7 +22,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 A Todo List Projects with Webpack <a name="about-project"></a>
+# 📖 A Leaderboard Projects with Webpack <a name="about-project"></a>
 
 A Leader project developed with webpack, gitflow, githubflow and the best combo of HTML, CSS and JAVASCRIPT. In addition, i added Linters for Html, Css and Javascript.
 

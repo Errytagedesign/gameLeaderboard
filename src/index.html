@@ -13,18 +13,13 @@
       <section class="col-6">
         <div class="d-flex flex-row justify-content-between">
           <h2>Recent Scores</h2>
-          <button class="btn btn-outline-secondary">Refresh</button>
+          <button id="loadGamer" class="btn btn-outline-secondary">
+            Refresh
+          </button>
         </div>
-        <ul class="leaderBoard border mt-3 p-2 rounded">
-          <li>Tade: 500</li>
-          <li>Deji: 500</li>
-          <li>Maliq: 500</li>
-          <li>Seun: 500</li>
-          <li>Dare: 500</li>
-          <li>Tunde: 500</li>
-        </ul>
+        <ul class="leaderBoard border mt-3 p-2 rounded"></ul>
       </section>
-      <section class="col-4">
+      <section class="col-5">
         <h2>Add your score</h2>
         <form class="d-flex flex-column justify-content-between">
           <input class="name mt-3" type="text" placeholder="Your name" />
@@ -35,6 +30,8 @@
             </button>
           </div>
         </form>
+
+        <div id="message" class="mt-5"></div>
       </section>
     </main>
   </body>
