@@ -8,8 +8,8 @@ import { loadGamers } from '../modules/loadGamers';
 const addScoreDetails = document.querySelector('#addScores');
 const reloadScores = document.querySelector('#loadGamer');
 
-// eslint-disable-line operator-linebreak
 const baseUrl =
+  // eslint-disable-line operator-linebreak
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 
 const gameName = { name: 'Codeeq Game' };
