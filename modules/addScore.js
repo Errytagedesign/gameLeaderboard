@@ -1,5 +1,8 @@
+const { clearInput } = require('./clearInput');
+
 const nameInput = document.querySelector('.name');
 const scoreInput = document.querySelector('.score');
+const message = document.querySelector('#message');
 
 const addScores = async (baseUrl, gameID) => {
   const gamers = {
@@ -27,7 +30,20 @@ const addScores = async (baseUrl, gameID) => {
 
       const successMessage = await response.json();
 
-      console.log(successMessage);
+      // Clear input field
+      clearInput(nameInput, scoreInput);
+
+      // display success message
+      message.innerHTML = `
+      <div class="p-3 mb-2 bg-success text-white mt-5">
+      <small > ${successMessage.result} </small>
+      </div>
+     `;
+
+      // CLear the success message after 3 seconds
+      setTimeout(() => {
+        message.innerHTML = '';
+      }, 3000);
     } catch (error) {
       console.log(error);
     }
