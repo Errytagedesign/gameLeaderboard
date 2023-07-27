@@ -31,5 +31,6 @@ reloadScores.addEventListener('click', () => {
 });
 
 window.addEventListener('load', () => {
-  scoreBoard.innerHTML = `<h5 class="text-center"> Refresh to see the leaderboard </h5>`;
+  scoreBoard.innerHTML =
+    '<h5 class="text-center"> Refresh to see the leaderboard </h5>';
 });
